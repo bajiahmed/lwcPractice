@@ -14,4 +14,8 @@ export default class AccountTile extends LightningElement {
     get tileSelected(){
         return this.isSelected ? 'tile selected' : 'tile'; 
     }
+
+    acctClick(){
+        alert(this.acct.Name);
+    }
 }
